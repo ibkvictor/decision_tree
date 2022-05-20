@@ -16,7 +16,7 @@ Seven columns containing discrete data values of the number of the buying price 
 
 The multiple features and several values within each feature make this dataset appropriate for classification using the decision trees algorithm.
 
-![Data Structure]("/img/two.png")
+![Data Structure]("./img/two.png")
 
 In my evaluation of this dataset, I would be using the decision as my label / predicted values, while all other attributes of the vehicles would be used as features.
 
@@ -89,14 +89,14 @@ $$ f*{recursive fit}({parent\:node}) = f*{recursive\:fit}({child\:node|parent\:n
 
 The unit test is prepared for all functions used in implementing the algorithm. Thus, the Pytest framework is used to implement these tests. The implementation passed all unit tests modules as described in the image below.
 
-![unit test]("/img/one.png")
+![unit test]("./img/one.png")
 
 ## Results
 
 Using a tree depth of 6 and 10% of the data as test data and the rest as training data,
 An accuracy of 91.33% was obtained on the dataset, as described in the image below:
 
-![Training Result]("/img/three.png")
+![Training Result]("./img/three.png")
 
 ## References
 
