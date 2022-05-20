@@ -1,0 +1,21 @@
+func fit(data):
+
+    if node expored or data is empty
+        then return most occuring value in label column
+
+    else 
+        then search for node (feature) with highest gain (i.e highest and non negative gain)
+        identify the feature
+    
+        data_items = spit_data_by_feature(feature)
+
+        create result_map with keys: feature_values and values: empty list 
+
+        for data_item in data_items
+            value = fit(data_item)
+            append value to result_map[feature_value]
+        
+        if node_level is highest:
+            set tree_representation to result_map
+            
+        return result_map
